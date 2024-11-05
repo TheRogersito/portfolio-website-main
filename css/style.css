@@ -8,7 +8,7 @@ body {
   border: none;
   background-color: #fff;
   font-size: 1.5rem;
-  color: #fca61f;
+  color: #1f4e79;
 }
 /* styling navbar links  */
 .navbar-nav a {
@@ -16,7 +16,7 @@ body {
   position: relative;
 }
 .navbar-nav a:hover {
-  color: #fca61f;
+  color: #1f4e79;
 }
 .navbar-nav a:after {
   background: none repeat scroll 0 0 transparent;
@@ -27,7 +27,7 @@ body {
   left: 50%;
   top: 35px;
   position: absolute;
-  background: #fca61f;
+  background: #1f4e79;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -38,7 +38,7 @@ body {
 /* styling contact btn  */
 .c-btn {
   border: none;
-  background: #fca61f;
+  background: #1f4e79;
   color: #fff;
   font-size: 1.2rem;
 }
@@ -56,7 +56,7 @@ body {
   line-height: 4rem;
 }
 .c-orange {
-  color: #6f34fe;
+  color: #6ebcf3;
   font-weight: 700;
   font-size: 4rem;
 }
@@ -73,7 +73,7 @@ body {
 .link {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #fca61f;
+  color: #1f4e79;
   position: relative;
 }
 .link::after {
@@ -114,24 +114,19 @@ body {
 }
 
 /* expertise section starts */
-.heading small {
-  color: #6f34fe;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
 .heading h3 {
   margin-top: 0.5rem;
-  color: #3f396d;
+  color: #6ebcf3;
   font-size: 2.5rem;
   font-weight: 700;
 }
 .expertise h4 {
-  color: #3f396d;
+  color: #1f4e79;
   font-weight: 700;
 }
 .expertise a {
   text-decoration: none;
-  color: #fca61f;
+  color: #1f4e79;
 }
 .expertise a:hover {
   color: #6f34fe;
@@ -144,7 +139,7 @@ body {
 
 /* skill section starts */
 .skill {
-  background-color: rgb(234, 234, 249);
+  background-color: #d2e9ff8c;
 }
 .progress-card {
   padding: 12% 10% 10% 15%;
@@ -214,7 +209,7 @@ body {
   margin: 0 25px;
 }
 #myBtnContainer button:hover {
-  color: #fca61f;
+  color: #1f4e79;
 }
 
 #myBtnContainer button:focus {
@@ -238,7 +233,7 @@ body {
 }
 .testimonial i {
   font-size: 2.9rem;
-  color: #fca61f;
+  color: #1f4e79;
 }
 .testimonial .nextprev-btn {
   border: none;
@@ -281,11 +276,11 @@ body {
   text-decoration: none;
 }
 .blogpost a:hover {
-  color: #fca61f;
+  color: #1f4e79;
 }
 .blog .blogpost .read-more-btn {
   text-decoration: none;
-  color: #fca61f;
+  color: #1f4e79;
   font-size: 1.1rem;
 }
 .blog .blogpost .read-more-btn:hover {
@@ -301,7 +296,7 @@ body {
   margin-top: -3%;
 }
 .btn-c i {
-  color: #fca61f;
+  color: #1f4e79;
 }
 .modal-body .content span {
   font-size: 1rem;
@@ -316,7 +311,7 @@ body {
 }
 .contact-details i {
   font-size: 1.5rem;
-  color: #fca61f;
+  color: #1f4e79;
 }
 .contact-details p {
   font-size: 1.2rem;
@@ -324,7 +319,7 @@ body {
 }
 .contact-form .form-control:focus {
   box-shadow: none;
-  border: 1px solid #fca61f;
+  border: 1px solid #1f4e79;
 }
 .contact-form .form-control {
   padding: 10px 10px;
@@ -345,7 +340,7 @@ footer .link-group a {
   margin-top: 1rem;
 }
 footer .link-group a:hover {
-  color: #fca61f;
+  color: #1f4e79;
 }
 .social-links button {
   border: none;
@@ -384,10 +379,12 @@ footer .link-group a:hover {
   bottom: 40px;
   right: 40px;
   display: none;
-  font-size: 1.4rem;
-  background-color: #fca61f;
+  font-size: 1.5rem;
+  background-color: #1f4e79;
   color: #fff;
   animation: pulse 3s infinite;
+  aspect-ratio: 1/1;
+  align-items: center;
 }
 
 .nav-link {
