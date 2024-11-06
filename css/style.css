@@ -2,6 +2,7 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
+  margin: 0;
 }
 /* styling menu icon */
 .nav-menu {
