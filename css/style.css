@@ -416,3 +416,9 @@ footer .link-group a:hover {
   background-color: #1f4e79; /* Adjust color as needed */
   border-radius: 2px;
 }
+
+@media screen and (max-width: 600px) {
+  .iconseparation {
+    margin-right: 10px;
+  }
+}
